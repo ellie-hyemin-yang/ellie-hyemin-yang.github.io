@@ -259,6 +259,7 @@ img.nav-icon {
 
 .article {
     display: block;
+    margin-right: 10px;
 }
 
 .article.big-first-letter::first-letter {
@@ -365,6 +366,12 @@ img.nav-icon {
         margin-top: 15px;
         text-align: center;
     }
+
+    #resume-pdf {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /*Tablet Styles */
@@ -414,5 +421,15 @@ img.nav-icon {
         margin-right: auto;
         margin-top: 15px;
         text-align: center;
+    }
+
+    .article {
+        margin-right: auto;
+    }
+
+    #resume-pdf {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
