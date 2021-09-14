@@ -245,6 +245,12 @@ form .submit:hover {
     width: 100%;
 }
 
+.footer nav li {
+    margin-right: 16px;
+    margin-left: 16px;
+    padding-right: 0;
+}
+
 img.nav-icon {
     align-items: center;
     display: flex;
@@ -372,6 +378,16 @@ img.nav-icon {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .profile .profile-pic {
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .column {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 /*Tablet Styles */
@@ -431,5 +447,10 @@ img.nav-icon {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .column {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
